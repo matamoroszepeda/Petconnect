@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+
+ }
+
+
+.toolbar-image {
+    width: 50px; 
+    height: auto; 
+    margin: 0 5px; 
+  }
+
+  .toolbar-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .toolbar .las.la-bars {
+    font-size: 32px; 
+  }
+
+  .toolbar.toolbar-top {
+    height: 80px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+  }
+
+  .custom-panel {
+    background-color: #EF7E2C;
+    color: white;
+  }
+
+  .custom-panel a {
+    color: white !important;
+  }
+
+  #panel-menu .list li {
+    margin-bottom: 10px;
+  }
+
+  #panel-menu h3 {
+    margin: 5px 0;
+  }
+
+  section[data-name="home"] h2 {
+    margin-top: 11%;
+    margin-left: 3%;
+  }
+
+  .searchbar {
+    max-width: 350px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 2px !important;
+    border-radius: 200px;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1) !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+  .searchbar-input-wrap input {
+    font-size: 8px; 
+  }
+
+   .searchbar-disable-button::before {
+    color: #EF7E2C !important;
+}
+
+    .btnperso {
+        border-radius: 9px;
+        width: 98px;
+        padding: 0px 5px;
+        display: inline-block;
+        background-color: #FFCAA3;
+        color: black;
+
+}
+
+.link {
+  color: #EF7E2C !important;
+}
+.custom-card-content {
+  padding: 10px; 
+}
+
+.custom-card {
+  border-radius: 15px; 
+}
+
+.custom-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; 
+}
+
+h3 {
+  margin-left: 10px; 
+}
+
+.card-content h6 {
+  margin: 5px 0; 
+}
+
+.card-bio {
+  background-color: #FFE8D3;
+  border-radius: 20px; 
+  border: 1px solid #000000; 
+  margin: 30px;
+}
+
+.card-bio .item-media i {
+  font-size: 24px; 
+}
+
+.card-bio .item-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-adopt {
+  background-color: #EF7E2C;
+  width: 40%; 
+  margin: 0 auto; 
+}
+
+
